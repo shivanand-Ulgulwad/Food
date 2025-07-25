@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  background-color: rgb(241, 244, 184);
+}
+
+nav {
+  height: 70px;
+  width: 100vw;
+  background-color: #a6e3e9;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  font-weight: bold;
+}
+a {
+  color: #33333391;
+  text-decoration: none;
+  width: 35%;
+  cursor: pointer;
+}
+a:hover {
+  color: #262626;
+  font-size: 1.4rem;
+  transition: all;
+  transition-duration: 0.2s;
+}
+
+#cont {
+  width: 40%;
+  display: flex;
+  font-size: 20px;
+  font-family: poppins-regular, sans-serif;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero {
+  height: 200px;
+  width: 100%;
+}
+
+.content {
+  font-family: Playfair Display, serif;
+  font-weight: 300;
+  font-size: 35px;
+
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-family: Playfair Display, serif;
+}
+p {
+  font-family: poppins-regular, sans-serif;
+  font-size: 18px;
+}
+
+#container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  margin-top: 500px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card1 {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  flex-wrap: wrap;
+
+  column-gap: 20px;
+  border: 1px solid black;
+}
+.card2 {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  column-gap: 20px;
+}
+.card3 {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+
+  border-radius: 10px;
+  column-gap: 20px;
+}
+
+.cont1 {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  flex-wrap: wrap;
+
+  column-gap: 20px;
+  border: 1px solid black;
+}
+.cont2 {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  flex-wrap: wrap;
+  border: 1px solid black;
+
+  border-radius: 10px;
+  column-gap: 20px;
+}
+.cont3 {
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+
+  border-radius: 10px;
+  column-gap: 20px;
+}
